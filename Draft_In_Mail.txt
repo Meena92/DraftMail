@@ -1,0 +1,68 @@
+FUNCTIONAL ~ Management ~ Quality ~ Software Lifecycles
+	
+VSEManager.exe --registry tcp://HOSTNAME:2010/Registry --vse tcp://HOSTNAME:2013/VSE --username=xxxxx --password=xxxxxxx --deploy C:\DevTest\Projects\VSEManager\VirtualServices\Images\XXX.mar
+
+COMMAND LINE UTILITY
+Create a VRS file in the Workstation first and then use that VRS file in the ServiceImageManager as follows:
+ServiceImageManager.exe --vrs=PathToTheVrsFile --si-file=PathToTheVsiFile --vsm-file=PathToTheVsmFile --record --go
+
+TestCase Execution
+
+cd /d "D:\DevTest\bin\" 
+TestRunner.exe -u admin -p admin -t D:\DevTest\Projects\D1\Tests\test34.tst -m tcp://INBASDPC10722:2010/Registry 
+pause
+
+
+
+
+in application.properties file
+u have to add
+tdmweb.publish.batchCommit=true
+tdmweb.publish.iterationsBeforeCommit=20000
+from portal it takes 4mins 47 seconds
+to generate 1million rows of data
+in 101 columns
+
+
+
+http://stackoverflow.com/questions/17857283/permission-denied-error-on-github-push  ( remote: Permission to Meena92/repo1.git denied to MadhuriDev.
+
+
+fatal: unable to access 'https://github.com/Meena92/repo1.git/': The requested U   RL returned error: 403)
+https://www.youtube.com/watch?v=9pgqr6fbGGs&feature=youtu.be
+
+https://www.youtube.com/watch?v=9pgqr6fbGGs&feature=youtu.be
+
+http://orzota.com/2012/07/29/eclipse-setup-for-hadoop-development/
+Eclipse Setup for Hadoop Development - Orzota
+orzota.com
+Objectives We will learn the following things with this Eclipse Setup for Hadoop tutorial Setting Up the Eclipse plugin for Hadoop Testing the running of ...
+
+
+254062 4*254062 33101014987-1
+
+254064 4*254064 33101014987-1(Mrs Dev)
+
+
+https://community.tableau.com/docs/DOC-7619 (Start & End Date)
+Start date of month and End date of Month |Tableau Community
+community.tableau.com
+hi, this is simple way how we can use Start date of month and End date of month in a calculated field. so, Start date of month :-
+
+http://stackoverflow.com/questions/30344826/datediff-function-help-dates-in-2-different-columns ( Delay)
+https://community.tableau.com/message/446836#446836
+https://community.tableau.com/thread/196139 (last week )
+How to compare current week's data to last year ...
+community.tableau.com
+Hello, I am currently trying to find the best way to calculate this week's data and compare the values to the same period but using last year's data.
+
+
+http://kb.tableau.com/articles/knowledgebase/creating-ytd-mtd-calculations 
+
+Acquire::http::proxy "http://mn00365099:June%401993@10.53.130.55:80/";
+Acquire::https::proxy "https://mn00365099:June%401993@10.53.130.55:80/";
+Acquire::ftp::proxy "ftp://mn00365099:June%401993@10.53.130.55:80/";
+Acquire::socks::proxy "socks:10.53.130.55:80/";
+
+
+
